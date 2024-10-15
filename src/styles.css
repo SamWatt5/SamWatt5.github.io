@@ -147,8 +147,9 @@ a {
 }
 
 .about-me-text {
-    display:inline;
+    margin-left: 20px;
 }
-#about-me-img {
-    display: inline;
+
+.about-me {
+    display:flex;
 }
