@@ -36,6 +36,8 @@ nav {
     background-color: #447;
     padding: 10px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
