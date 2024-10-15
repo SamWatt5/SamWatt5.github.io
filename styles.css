@@ -3,12 +3,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f4f4ff;
+    color: #336;
 }
 
-h1, h2 {
-    color: #333;
+h1 {
+    color:#ccd;
+}
+
+h2 {
+    color: #336;
 }
 
 .container {
@@ -18,7 +22,7 @@ h1, h2 {
 }
 
 header {
-    background-color: #333;
+    background-color: #336;
     color: #fff;
     padding: 30px 0;
     text-align: center;
@@ -29,7 +33,7 @@ header h1 {
 }
 
 nav {
-    background-color: #444;
+    background-color: #447;
     padding: 10px 0;
     text-align: center;
 }
@@ -101,7 +105,7 @@ form input, form textarea {
 
 form button {
     padding: 10px;
-    background-color: #333;
+    background-color: #336;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -113,9 +117,28 @@ form button:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #336;
     color: #fff;
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.github-logo {
+    width: 10%;
+}
+
+.contact-images {
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 20px;
+    vertical-align:middle;
+    
+}
+.contact-text {
+    display: inline;
 }
